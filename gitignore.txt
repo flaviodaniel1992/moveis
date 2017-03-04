@@ -1,4 +1,4 @@
-- arquivo .gitignore
+- arquivo ".gitignore"
 
 nao_listar.txt
 nao_listar/
