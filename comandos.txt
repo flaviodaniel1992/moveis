@@ -4,5 +4,13 @@ $ git reset -- filename
 $ git revert --no-edit "commit_number"
  - Desfaz o commit realizado em um arquivo, o commit_number é o número do commit.
 
- $ git reset --hard "commit_number"
+$ git reset --hard "commit_number"
   - volta à um determinado commit realizado.
+
+$ git init --bare remote-repository.git
+ - Comando para criar um reposítorio remoto na máquina.
+
+$ git remote add servidor "D:\Arquivos Estudos\Git e Github\moveis\moveis-ecologicos.git"
+
+$ git remote -v
+  - Lista os repositórios remotos...
