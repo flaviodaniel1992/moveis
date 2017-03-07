@@ -1,0 +1,2 @@
+$ git reset -- filename
+ - Retira do stage o arquivo que foi inserido através do comando (git add)
