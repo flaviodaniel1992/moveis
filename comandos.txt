@@ -1,2 +1,8 @@
 $ git reset -- filename
- - Retira do stage o arquivo que foi inserido atrav�s do comando (git add)
+ - Retira do stage o arquivo que foi inserido atrav�s do comando (git add)
+
+$ git revert --no-edit "commit_number"
+ - Desfaz o commit realizado em um arquivo, o commit_number é o número do commit.
+
+ $ git reset --hard "commit_number"
+  - volta à um determinado commit realizado.
