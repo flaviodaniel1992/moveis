@@ -1,4 +1,7 @@
-$ git reset -- filename
+git remote add origin "url.git"
+ - Comando para adicionar um repositório remoto
+
+ git reset -- filename
  - Retira do stage o arquivo que foi inserido atrav�s do comando (git add)
 
 $ git revert --no-edit "commit_number"
@@ -10,7 +13,21 @@ $ git reset --hard "commit_number"
 $ git init --bare remote-repository.git
  - Comando para criar um reposítorio remoto na máquina.
 
-$ git remote add servidor "D:\Arquivos Estudos\Git e Github\moveis\moveis-ecologicos.git"
-
+$ git remote add servidor "file://10.0.0.101/repositorio-remoto/moveis-ecologicos.git"
+ - O 10.0.0.101 é o IP do servidor
 $ git remote -v
   - Lista os repositórios remotos...
+
+$ git remote rename "old_name" "new_name"
+  - O comando renomeia o repositorio...
+
+$ git remote remove "repository_name"
+  - Comando que remove o repositorio
+
+$ git remote set-url "repo_name" "new_url"
+ - Comando para alterar a URL do respositor
+
+$ git clone file://10.0.0.101/repositorio-remoto/moveis-ecologicos.git
+ - Comando para clonar um repositório de arquivos do servidor..
+
+ fdafd
