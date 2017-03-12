@@ -72,6 +72,9 @@ $ git branch --no-merged
 (Exemplo: você está no branch 'master' e executa o comando, será listado os branchs 
 diferentes do master)
 
+$ git branch --merged
+- Comando que lista os branchs mergiados...
+
 $ git merge @branch_name -m "Mesclando com o branch @branch_name"
  - Comando que mergia os branchs
  (Exemplo: você está no branch 'master' e que mergiar com o branch 'design')
