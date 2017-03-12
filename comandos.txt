@@ -67,3 +67,5 @@ $ git branch -D @branch_name
 $ git rm @file_name.css
 - Comando que remove um arquivo do projeto
 
+$ git branch --no-merged
+- Comando que lista os branchs que não estão com as mesmas alterações...
