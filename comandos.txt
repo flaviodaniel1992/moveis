@@ -69,3 +69,9 @@ $ git rm @file_name.css
 
 $ git branch --no-merged
 - Comando que lista os branchs que não estão com as mesmas alterações...
+(Exemplo: você está no branch 'master' e executa o comando, será listado os branchs 
+diferentes do master)
+
+$ git merge @branch_name -m "Mesclando com o branch @branch_name"
+ - Comando que mergia os branchs
+ (Exemplo: você está no branch 'master' e que mergiar com o branch 'design')
