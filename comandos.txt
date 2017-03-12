@@ -30,4 +30,39 @@ $ git remote set-url "repo_name" "new_url"
 $ git clone file://10.0.0.101/repositorio-remoto/moveis-ecologicos.git
  - Comando para clonar um repositório de arquivos do servidor..
 
- fdafd
+$ git branch -v
+ - Comando que lista os branch com o último Id de commit realizado
+
+$ git log --parents
+ - Comando que lista os commits com seus commits pais...
+
+$ git log --oneline --decorate --parents
+ - Comando que lista de forma resumida os commits com commits pai e o seu branch.
+
+$ git branch
+ - Comando que lista os branchs do repositorio
+
+$ git branch -v
+ - Comando que lista os branch com o último Id de commit realizado
+
+$ git branch @name
+ - Comando que criar um novo branch
+
+$ git branch -d @name
+ - Comando que remove um branch
+
+$ git branch -D @branch_name
+- Comando que deleta um branch que tenha commits realizados...
+(Os commits desse branch serão descartados)
+
+$ git checkout @branch_name
+ - Comando para mudar de branch do respositorio.
+
+$ git checkout -b @branch_name
+ - Comando que cria uma nova branch e muda o projeto para ela.
+
+$ git branch -D @branch_name
+- Comando que deleta um branch que tenha commits realizados...
+
+$ git rm @file_name.css
+- Comando que remove um arquivo do projeto
