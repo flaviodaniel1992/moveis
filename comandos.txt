@@ -1,4 +1,4 @@
-git remote add origin "url.git"
+﻿git remote add origin "url.git"
  - Comando para adicionar um repositório remoto
 
  git reset -- filename
