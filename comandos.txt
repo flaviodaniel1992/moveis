@@ -79,4 +79,9 @@ $ git merge @branch_name -m "Mesclando com o branch @branch_name"
  - Comando que mergia os branchs
  (Exemplo: você está no branch 'master' e que mergiar com o branch 'design')
 
-*Teste de inclusão no branch 'design2222'
+$ git rebase design
+ - Comando que mergia os branchs de projetos
+ (Se você estiver no branch master e executar o comando acima,
+ será mergiado com o branch design)
+
+ 
