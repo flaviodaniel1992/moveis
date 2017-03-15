@@ -84,4 +84,6 @@ $ git rebase design
  (Se você estiver no branch master e executar o comando acima,
  será mergiado com o branch design)
 
+$ git branch -r
+ - Comando que lista as branches remotas
  
