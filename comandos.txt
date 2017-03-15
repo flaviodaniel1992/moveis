@@ -87,3 +87,5 @@ $ git rebase design
 $ git branch -r
  - Comando que lista as branches remotas
  
+$ git fetch origin
+ - Comando que traz os commits realizados na branch remota
